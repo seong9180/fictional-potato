@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daejeon</title>
+    <link rel="stylesheet" href="city.css">
+    <script>
+        function f(e){
+            location.href="index.html";
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <button onclick="f(event)">HOME</button>
+    </header>
+    <div class="left_section">
+        <div class="left_city_text">지역 이름 : <span>대전</span>
+            <div class = "select_box">
+                <form>
+                    <select id = "city" onchange="location.href=this.value">
+                        <option value="">다른 지역</option> 
+                        <option value="seoul.html">서울</option>
+                        <option value="daejeon.html">대전</option>
+                        <option value="daegu.html">대구</option>
+                        <option value="busan.html">부산</option>
+                    </select>
+                </form>
+            </div>
+            <h3>단계적 일상회복 전환에 따른 사회적 거리두기(1차개편)</h3>
+            <hr>
+            <p>*방역패스 의무적용 시설중 수기명부 작성 계도기간 일부 연장(12.19까지)조정</p>
+            <p>방역패스 의무적용 시설 확대</p><br>
+            <p>사적모임</p><hr>
+            <p>9명부터 사적모임 금지(접종여부 구분없이 8명까지 모임 가능)<br>
+            식당&카페에 한해 1차접종자,미접종자 1명 포함하여 최대 <span>8인</span>까지 모임 가능</p><br>
+            <p>행사&집회</p><hr>
+            <p>접종여부 구분 없이 <span>100명</span> 미만, 접종완료자 등으로 구성 시 500명 미만</p>
+        </div>
+    </div>
+    <div class="right_section">
+        <img src="image/daejeon_map.png" width="80%" height="50%" alt="daejeon">
+        <br><br>
+        <a href="http://ncov.mohw.go.kr/socdisBoardList.do?brdId=6&brdGubun=64&dataGubun=641">거리두기 단계별 실행방안</a>
+        <br><br>
+        <a href="https://www.daejeon.go.kr/corona19/index.do">대전 코로나 홈페이지</a>
+    </div>
+    <footer class="footer">made by 김승민 인스타 : seong9180</footer>
+</body>
+</html>
